@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inter&display=swap');
+
+
+
+body {
+
+    font-family: 'Inter';
+    width: 1440px;
+    height: 1024;
+    top: -513;
+    left: -720;
+    position: relative;
+    background: #F3F5FC;
+}
+
+.vector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.vector img {
+   width: 60px;
+   height: 48px;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.comecar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 317;
+    height: 105px;
+    left: 562px;
+    top: 394px;
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+.interna {
+    width: 269px;
+    height: 57px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;  
+
+
+}
+
+.interna p {
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.adicionar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 317px;
+    height: 102px;
+    left: 562px;
+    top: 528px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.adicionar div {
+    font-family: 'Inter';
+    width: 269px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0A3871;
+
+}
+
+.adicionar div p {
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.digitePalavra {
+    position: absolute;
+    width: 413px;
+    height: 48px;
+    left: 376px;
+    top: 256px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    
+}
+
+.salvarCancelar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 376px;
+    top: 701px;
+}
+
+.salvar {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 332px;
+height: 67px;
+
+
+
+background: #0A3871;
+border-radius: 24px;
+
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+
+
+.salvar div {
+width: 284px;
+height: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+
+    
+    
+}
+
+.salvar div p {
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.cancelar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.cancelar div {
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    
+}
+
+.cancelar div p {
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+/*#forca {
+    position: absolute;
+    width: 1200px;
+    height: 860px;
+    left: 573px;
+    top: 88px;
+    background: lightblue;
+}*/
+
+.btn-iniciar {
+color: #FFFFFF;
+font-size: 18px;
+font-family: 'Inter';
+font-weight: 400;    
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 317px;
+height: 105px;
+left: 562px;
+top: 394px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 24px;
+
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 464px;
+    height: 152px;
+    left: 488px;
+    top: 568px;
+    background: gray;
+
+}
+
+.otherLetters {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 136px;
+    height: 36px;
+    background: lightgray;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 376px;
+    top: 904px;
+
+}
