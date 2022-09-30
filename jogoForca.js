@@ -1,6 +1,7 @@
 var word = ["ALURA", "ORACLE", "FORCA", "HTML", "JAVASCRIPT", "LOGICA"];
 var tabuleiro = document.getElementById('forca').getContext('2d');
 var palavraSecreta = "";
+var novaPalavra = "";
 
 let letras = []
 let erros = 8
@@ -49,7 +50,11 @@ function mostraErros(){
 }
 
 
+function adicionarNovaPalavra() {
+    document.getElementById('div-desaparece').style.display = 'none';
 
+
+}
 
 
 

@@ -12,8 +12,15 @@
     <div id="div-desaparece" class="botoes-home">
         <a href="#forca">
             <!--Botão/input-->
-            <input type="submit" class="btn-iniciar" value="iniciar jogo" id="iniciar-jogo" onclick="iniciarJogo()">
-            <input type="submit" class="btn-adicionar" value="adicionar palavra" id="adicionar-palavras" onclick="adcionarPalavras()">
+            <!--<input type="submit" class="btn-iniciar" value="iniciar jogo" id="iniciar-jogo" onclick="iniciarJogo()">-->
+
+            <button type="submit" class="btn-iniciar" id="iniciar-jogo" onclick="iniciarJogo()"><div><p>Iniciar jogo</p></div></button>
+            
+            <button type="submit" class="btn-adicionar" id="adcionar-palavras" onclick="adicionarNovaPalavra()"><div><p>Adicionar nova palavra</p></div></button>
+
+            <form action="inserirPalavra.html" class="btn-adcionar"><input type="submit" value="Inserir Nova palavra">
+            </form>
+            
         </a>      
         
     </div>
